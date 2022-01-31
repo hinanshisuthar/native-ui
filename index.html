@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+    <link rel="icon" type="favicon" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Native UI</title>
@@ -13,34 +13,36 @@
 </head>
 
 <body>
-    <nav class="nav">
+    <nav>
+    <div class="nav">
         <div class="logo-container">
-            <img src="images/logo.svg" alt="logo">
+            <img src="images/logo.svg" alt="logo" class="logo">
         </div>
         <div class="nav-center">
-            <h4>Home</h4>
-            <h4>Get Started</h4>
-            <h4 class="documentation">Documentation</h4>
+            <h4 class="pointer-cursor">Home</h4>
+            <h4 class="pointer-cursor">Get Started</h4>
+            <h4 class="documentation pointer-cursor">Documentation</h4>
         </div>
         <div class="social-links">
-            <i class="fab fa-github"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-linkedin"></i>
-            <i class="fa fa-moon"></i>
+            <i class="fab fa-github pointer-cursor"></i>
+            <i class="fab fa-twitter pointer-cursor"></i>
+            <i class="fab fa-linkedin pointer-cursor"></i>
+            <i class="fa fa-moon pointer-cursor"></i>
         </div>
+    </div>
     </nav>
 
     <main class="main">
         <div class="left hero-image">
-            <img src="images/hero-image.svg" alt="" class="hero">
+            <img src="https://sleekbundle.com/wp-content/uploads/2020/01/14-Location-not-found-1250x938.png" alt="" class="hero">
         </div>
         <div class="right hero-text">
-            <h1>Build Your UI Faster</h1>
-            <h2>Copy and paste the components at one click. It is user-friendly and customizable. Spend less time in
+            <h1>Build fast, responsive  frontend with Native</h1>
+            <h2>Design your dream project by copying and pasting the component clases at one click. It is user-friendly and customizable. Spend less time in
                 designing and concentrate more on logic without hustling on UI.</h2>
             <div class="hero-buttons">
-                <button class="button primary-btn">Installation</button>
-                <button class="button secondary-btn">Documentation</button>
+                <button class="button primary-btn pointer-cursor">Get Started</button>
+                <button class="button secondary-btn pointer-cursor">Documentation</button>
             </div>
         </div>
     </main>
@@ -48,28 +50,39 @@
     <section class="section">
         <div class="right installation-section">
             <div class="section-content">
-                <h1>Installation</h1>
+                <h1>Get Started</h1>
             </div>
-            <h3>Copy and paste the code in the head tag of your html document. So that you can style your components
-                by just adding class names to your html elements.</h3>
-            <h3>Version 1 has only light theme.</h3>
-            <div class="version-2">
-                <h3>Version 2 has 2 themes:</h3>
+            <h3>Copy and paste the code in the head tag of your html document. To use it, add the class names to your elements. And voila! Done.</h3>
+            <h3>Go ahead with the documentaion once you are ready with your stylesheet.</h3>
+            <div class="version-1">
+                <h3>Version 1</h3>
                 <ul>
                     <li>Light Theme</li>
-                    <li>Dark Theme</li>
                 </ul>
             </div>
             <h3>To know about the styled components, their variations, read the documentaion</h3>
         </div>
         <div class="left iframe">
             <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%2840%2C27%2C58%2C1%29&t=one-light&wt=none&l=auto&width=680&ds=true&dsyoff=39px&dsblur=69px&wc=true&wa=true&pv=35px&ph=34px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520import%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fu-and-i.netlify.app%252FComponents%252Fu-and-i.css%2522%253E%250A"
-  style="width:650px; height: 200px; border:0; transform: scale(1); overflow:hidden;"
+  src="https://carbon.now.sh/embed?bg=rgba%28243%2C78%2C78%2C1%29&t=one-light&wt=none&l=auto&width=500&ds=true&dsyoff=39px&dsblur=69px&wc=true&wa=false&pv=35px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=143%25&si=false&es=2x&wm=false&code=%253C%21--%2520import%2520--%253E%250A%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fnative-ui.css%2522%253E%250A"
+  style="width: 650px; height: 195px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
 </iframe>
         </div>
     </section>
+
+    <footer>
+        <div class="footer-text">
+            Made with <i class="fa fa-heart"></i> by Hinanshi Suthar
+        </div>
+        <div class="social-links">
+            <i class="fab fa-github pointer-cursor"></i>
+            <i class="fab fa-twitter pointer-cursor"></i>
+            <i class="fab fa-linkedin pointer-cursor"></i>
+            <i class="fa fa-moon pointer-cursor"></i>
+        </div>
+        <small>© 2022 Native</small>
+    </footer>
 
 </body>
 
