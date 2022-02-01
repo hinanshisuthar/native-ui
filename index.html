@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navigation">
         <div class="nav">
             <div class="logo-container">
                 <img src="images/logo.svg" alt="logo" class="logo">
@@ -31,13 +31,20 @@
                 <i class="fab fa-linkedin pointer-cursor"></i>
                 <i class="fa fa-moon pointer-cursor"></i>
             </div>
-            
+            <div class="hamburger">
+                <i class="fa fa-bars" onclick="menu()"></i>
+            </div>
+        </div>
+        <div class="menu">
+            <h4>Home</h4>
+            <h4>Get Started</h4>
+            <h4>Documentation</h4>
         </div>
     </nav>
 
     <main class="main">
         <div class="left hero-image">
-            <img src="https://sleekbundle.com/wp-content/uploads/2020/01/14-Location-not-found-1250x938.png" alt=""
+            <img src="images/hero-img.svg" alt=""
                 class="hero">
         </div>
         <div class="right hero-text">
@@ -79,7 +86,7 @@
 
     <footer>
         <div class="footer-text">
-            Made with <i class="fa fa-heart"></i> by Hinanshi Suthar
+            <h4>Made with <i class="fa fa-heart"></i> by Hinanshi Suthar</h4>
         </div>
         <div class="social-links">
             <i class="fab fa-github pointer-cursor"></i>
@@ -90,5 +97,17 @@
     </footer>
 
 </body>
+
+<script>
+    const openMenu = document.querySelector(".menu")
+    function menu() {
+        // console.log("here");
+        if(openMenu.style.display === "block") {
+            openMenu.style.display = "none";
+        } else {
+        openMenu.style.display = "block";
+        }
+    }
+</script>
 
 </html>
