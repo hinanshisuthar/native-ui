@@ -5,13 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    word-wrap: break-word;
 }
 
 :root {
     --background-linen: #fff8e7;
     --accent-color: #8b82fa;
     --cta-color: #f34e4e;
+    /* --font-color: #04151F;
+    --font-color-2: #011936; */
     --font-color: #160C28;
 }
 
@@ -20,6 +21,11 @@ body {
     flex-direction: column;
     background-color: var(--background-linen);
     color: var(--font-color);
+}
+
+a {
+    text-decoration: none;
+    color:var(--font-color-dark);
 }
 
 nav {
